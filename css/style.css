@@ -1,0 +1,454 @@
+/******home******/
+.cslHome{
+	background: url(../img/bg-home-laptop.jpg)no-repeat center top;
+	background-size: cover;
+	overflow: hidden;
+}
+.cslHomeTitle{
+	background: transparent;
+	margin-top: -30px;
+	color: white;
+}
+.cslHomeTitle h1{
+	font-size: 120px;
+	font-style: italic;
+	font-weight: bolder;
+}
+.pay{
+	color: #f85d5d;
+}
+.cslHomeTitle p:nth-of-type(1){
+	font-size: 60px;
+	font-style: italic;
+	font-weight: bold;
+}
+.cslHomeTitle p:nth-of-type(2){
+	font-size: 30px;
+	width:500px;
+}
+.cslHomeTitle .btn{
+	background: #F85D5D;
+	font-size: 20px;
+	margin-top: 15px;
+	width:180px;
+	height: 60px;
+	line-height: 40px;
+	border: none!important;
+}
+.cslHome .down{
+	font-size: 100px;
+	color:#ffffff;
+	display: inline-block;
+	font-weight: bolder;
+	cursor: pointer;
+	width: 50px;
+	position: relative;
+	left: 50%;
+	margin-left: -25px;
+	animation: move 1s linear infinite;
+}
+@keyframes move{
+	from{transform: translate(0,0);}
+	to{transform: translate(0,15px);}
+}
+/******home弹窗*******/
+.cslmodalcontent{
+	margin-top: 38%;
+	margin-left: 19%;
+	width: 380px;
+	height: 300px;
+}
+#showdiv img{
+	width:50px;
+	margin-top: 10px;
+}
+#showdiv h1{
+	width:70px;
+	height: 70px;
+	border-radius: 35px;
+	box-shadow: 0 0 4px #e2e2e3;
+	position: absolute;
+	top:-105px;
+	left: 50%;
+	margin-left: -35px;	
+	background: white;
+}
+#showdiv .welcome{
+	width: 377px;
+	height: 40px;
+	background: #efeff0;
+	line-height: 40px;
+	font-size: 25px;
+	color: #cccccc;
+	margin-top: -33px;
+	margin-left: -15px;
+}
+.modal-header{
+	background: #efeff0;
+	border-radius: 5px 5px 0 0;
+}
+#showdiv p{
+	width:330px;
+	margin: auto;
+}
+#showdiv .btn{
+	background: #F85D5D;
+	width:250px;
+	height: 50px;
+	color: white;
+	font-size: 20px;
+	margin-top: 15px;
+	border-radius: 25px;
+}
+#showdiv>p:nth-of-type(1){
+	margin-top: 15px;
+}
+#showdiv>p:nth-of-type(2){
+	margin-top: 15px;
+}
+#showdiv .pay:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+/******导航栏*****/
+.cslnav{
+	background: #fafafa;
+	border-bottom: 1px solid #e2e2e2;
+}
+.cslnav img{
+	width:45px;
+	display:none;
+	cursor: pointer;
+	animation: showlogo 0.6s linear 1;
+}
+@keyframes showlogo{
+	from{transform:scale(0.5) rotate(0);}
+	to{transform:scale(1) rotate(360deg);}
+}
+.cslnav ul li{
+	margin-left: -13px;	
+}
+.cslnav ul li:nth-of-type(1){
+	margin-left: 0;
+	margin-right: 15px;
+}
+.cslnav ul li a{
+	color: #F85D5D!important;
+}
+.cslcurrent{
+	border-bottom: 1px dashed #F85D5D;
+}
+.cslnav ul li a:hover{
+	border-bottom: 1px dashed #F85D5D;
+}
+.cslnav .btn{
+	background: #F85D5D;
+	color: white;
+	text-align: center;
+	width:130px;
+	height: 45px;
+	padding: 0;
+	margin-top: 2px;
+	border: none;
+}
+/*****what******/
+.cslwhat{
+	margin-left:auto;
+	margin-right: auto;
+}
+.cslwhat .thumbnail{
+	border: none;
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+.cslwhat .thumbnail>h3{
+	font-size: 30px;
+}
+.cslwhat img{
+	margin-top: 25px;
+	cursor: pointer;
+}
+.cslwhat .caption p:nth-of-type(1){
+	margin-top: 25px;
+	font-size: 15px;
+}
+.cslwhat .btn{
+	margin-top: 25px;
+	font-size: 20px;
+	background: #F85D5D;
+	color: white;
+	border: none;
+}
+/*****how******/
+.cslhow{
+	background: #2B2F3E;
+	color: white;
+}
+.cslhow h3{
+	font-weight: bolder;
+	font-size: 30px;
+	margin-top: 50px;
+}
+.cslhow span{
+	font-size: 50px;
+	display: block;
+}
+.cslhow img{
+	width: 100%;
+	border-radius: 5px;
+}
+.cslhow ul{
+	list-style: none;
+	margin-left: -40px;
+}
+.one,.two,.three,.four{
+	margin-top: 15px;
+	padding-bottom: 150px;
+}
+.cslhow p{
+    font-size: 20px;
+}
+/*******explore*****/
+.cslexplore h3{
+font-size: 35px;
+font-weight: bolder;
+margin-top: 50px;
+}
+.cslexplore h5{
+font-size: 25px;
+margin-top: 25px;
+}
+.cslexplore .btn{
+width: 300px;
+height: 50px;
+color: white;
+background: #F85D5D;
+font-size: 20px;
+margin-top: 28%;
+}
+.cslexplore .text-center div{
+background: url(../img/explore.jpg)no-repeat;
+width: 100%;
+height: 684px;
+}
+/*******why*********/
+.cslwhy{
+background: #FEFAF6;
+}
+.cslwhy h2{
+margin-top: 80px;
+font-weight: bold;
+color: #444444;
+font-size: 33px;
+}
+.cslwhy .thumbnail{
+border: none;
+background: none;
+}
+.cslwhy .thumbnail>span{
+font-size: 75px;
+font-weight: bold;
+color: #555555;
+line-height: 1;
+}
+.cslwhy .caption h3{
+font-size: 33px;
+}
+.cslwhy .col-xs-12{
+margin-top: 50px;
+height: 230px;
+}
+.cslwhy h5{
+font-size: 15px;
+color: #333333;
+line-height: 0;
+}
+.cslwhy .current{
+line-height: 26px;
+}
+.cslwhy p{
+font-size: 15px;
+}
+.cslwhy p span{
+color: #F85D5D;
+}
+.cslwhy p span:hover{
+text-decoration: underline;
+cursor: pointer;
+}
+.cslwhy .container{
+padding-bottom: 150px;
+}
+/******badge******/
+.cslbadge{
+background: url(../img/bg-freedom.jpg)no-repeat center top;
+background-size: cover;
+color: white;
+padding: 50px 0;
+}
+.cslbadge h3{
+font-size: 33px;
+font-weight: bold;
+}
+.cslbadge div img{
+border-radius: 5px;
+cursor: pointer;
+}
+
+/******get in touch****/
+.cslgit{
+background: #FEFAF6;
+overflow: hidden;
+position: relative;
+}
+.cslgit h3{
+font-size: 33px;
+font-weight: bold;
+margin-top: 150px;
+}
+.cslgit ul{
+	position: absolute;
+	left: 50%;
+	margin-left: -214px;
+	top:210px;
+}
+.cslgit ul li{
+float: left;
+margin-right: 20px;
+cursor: pointer;
+}
+.cslgit ul li:nth-of-type(4){
+	margin-right: 0;
+}
+.cslgit ul li i{
+width:90px;
+height: 90px;
+border-radius: 45px;
+border: 1px solid gainsboro;
+display: inline-block;
+}
+.cslgit ul img{
+	width: 60px;
+	margin-top: 12px;
+}
+.cslgit ul li:nth-of-type(1) i{
+	background: #8da1cc;
+}
+.cslgit ul li:nth-of-type(2) i{
+	background: #60bbf3;
+}
+.cslgit ul li:nth-of-type(3) i{
+	background: #e57a70;
+}
+.cslgit ul li:nth-of-type(4) i{
+	background:#ec4c86 ;
+}
+.cslgit p:nth-of-type(1){
+	margin-top: 140px;
+}
+.cslgit p:nth-of-type(2){
+	margin-bottom: 100px;
+}
+.cslgit ul li:hover{
+	transition:all 0.5s;
+	position: relative;
+	top:-4px;
+}
+/*****媒体查询******/
+@media (max-width: 480px) {
+	.cslHomeTitle{
+		text-align: center;
+	}
+	.cslHomeTitle h1{
+	font-size: 75px;
+	font-style: italic;
+	font-weight: bolder;
+	margin-top: 55px;
+}
+.cslHomeTitle p:nth-of-type(1){
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	margin-top: -16px;
+}
+.cslHomeTitle p:nth-of-type(2){
+	font-size: 25px;
+	width:300px;
+	margin: 0 auto;
+}
+.cslHomeTitle .btn{
+	background: #F85D5D;
+	font-size: 20px;
+	margin-top: 50px;
+	width:180px;
+	height: 60px;
+	line-height: 40px;
+}
+.cslmodalcontent{
+	margin-top: 38%;
+	margin-left: 12%;
+	width: 300px;
+	height: 365px;
+}
+.welcome{
+	width: 298px!important;
+}
+#showdiv p{
+	width:255px;
+	margin: auto;
+}
+}
+@media (max-width:768px) {
+	.cslnav .navbar-toggle{
+	background: transparent;
+	border: none;
+	float: left;
+}
+.cslnav .icon-bar{
+	background-color: #F85D5D!important;
+	width: 33px;
+	margin-bottom: 8px;
+}
+.cslnav .icon-bar:nth-of-type(4){
+	margin-bottom: 0;
+}
+.cslnav .navbar-toggle:hover{
+	background: none;
+}
+}
+@media (max-width: 990px) {
+	.three{
+	margin-top: -270px;
+	}
+}
+@media (max-width: 769px) {
+	.two,.three{
+	display: none;
+	}
+}
+@media (max-width: 419px) {
+	.cslbadge embed{
+		width:330px;
+		height: 330px;
+	}
+	.cslbadge img{
+		width: 330px;
+	}
+}
+@media (max-width:429px) {
+	.cslgit ul li i{
+		width:45px;
+        height: 45px;
+        border-radius: 22.5px;
+        display: inline-block;
+	}
+	.cslgit ul img{
+	width: 28px;
+	margin-top: 6px;
+}
+.cslgit ul{
+	position:absolute;
+	left: 50%;
+	margin-left: -120px;
+}
+}
